@@ -37,13 +37,14 @@ html {
 
 .btn:link,
 .btn:visited {
-    padding: 10px 20px;
+    padding: 12px 20px;
+    margin-left: 90px;
     font-weight: bold;
     text-decoration: none;
     background-color: #243b80;
     border-radius: 33px;
     color: #fff;
-    font-size: 70%;
+    font-size: 60%;
     transition: background-color 0.2s;
 }
 
@@ -59,64 +60,55 @@ html {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/teamwork.jpg);
     height: 100vh;
-    /* width: 100%; */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;   
 }
 
-/* .texto-banner { */
-    /* position:absolute; */
-    /* position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 1440;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 372px 0 365px 176px;
-} */
-
 .texto-banner {
-    position: relative;
     display: flex;
     flex-direction: column;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 372px 0 365px 176px;
+    padding-top: 225px;
 }
 
 .texto-banner h1 {
     color: #fff;
     margin: 0;
-    font-weight: 600;
     font-size: 140%;
-    letter-spacing: 1px;
     word-spacing: 4px;
+    letter-spacing: 0.3px;
+    width: 502px;
+    height: 78px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
 }
 
 .texto-banner h2 {
     color: #fff;
-    font-weight: 200;
-    font-size: 90%;
-    margin-top: 16px;
-    margin-bottom: 56px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 78%;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: normal;
+    width: 353px;
+    height: 44px;
 }
 
 .texto-banner h1,
 .texto-banner h2,
 .texto-banner .btn {
-    /* flex-grow: inherit;
-    flex-basis: auto;
-    align-self: flex-start; */
-    /* display: block; */
     align-self: flex-start;
 }
 
 nav {
     background-color: #fff;
-    height: 120px;
+    height: 13%;
     width: 100%;
 }
 
@@ -124,7 +116,7 @@ nav {
     height: 70px;
     width: auto;
     float: left;
-    margin-top: 22px; 
+    margin-top: 16px; 
     margin-bottom: 22px;
 }
 
@@ -132,11 +124,11 @@ nav {
     display: flex;
     float: right;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .main-nav li {  
-    margin-left: 30px;   
+    margin-left: 50px;   
 }
 
 .main-nav li a:link,
@@ -146,10 +138,10 @@ nav {
     padding: 8px 0;
     color: #bdbdbd;
     text-decoration: none;
-    font-size: 90%;
+    font-size: 80%;
     font-weight: 300;
     border-bottom: 4px solid transparent;
-    transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.3s,  color 0.3s;
 }
 
 .main-nav li a:hover,
