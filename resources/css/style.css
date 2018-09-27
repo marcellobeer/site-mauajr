@@ -58,58 +58,20 @@ html {
 /* ----------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/teamwork.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../foto-banner/foto-banner.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;   
 }
 
-.texto-banner {
-    display: flex;
-    flex-direction: column;
-    padding-top: 225px;
-}
-
-.texto-banner h1 {
-    color: #fff;
-    margin: 0;
-    font-size: 140%;
-    word-spacing: 4px;
-    letter-spacing: 0.3px;
-    width: 502px;
-    height: 78px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-}
-
-.texto-banner h2 {
-    color: #fff;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    font-size: 78%;
-    letter-spacing: 0.2px;
-    word-spacing: 2px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    line-height: normal;
-    width: 353px;
-    height: 44px;
-}
-
-.texto-banner h1,
-.texto-banner h2,
-.texto-banner .btn {
-    align-self: flex-start;
-}
+/* NAVEGADOR/MENU */
 
 nav {
     background-color: #fff;
     height: 13%;
     width: 100%;
+    /* margin: auto; */
 }
 
 .logo {
@@ -124,7 +86,7 @@ nav {
     display: flex;
     float: right;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .main-nav li {  
@@ -150,3 +112,146 @@ nav {
     border-bottom: 3px solid #243b80;
 }
 
+/* BANNER */
+
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 225px;
+}
+
+.texto-banner h1 {
+    margin: 0;
+    width: 502px;
+    height: 78px;
+    color: #fff;
+    font-size: 140%;
+    word-spacing: 4px;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+}
+
+.texto-banner h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 353px;
+    height: 44px;
+    color: #fff;
+    font-size: 78%;
+    word-spacing: 2px;
+    letter-spacing: 0.2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+}
+
+.texto-banner h1,
+.texto-banner h2,
+.texto-banner .btn {
+    align-self: flex-start;
+}
+
+/* ----------------------------------------- */
+/* SECTION FRASE DE IMPACTO */
+/* ----------------------------------------- */
+
+.frase-impacto{
+    background-color:  #1a237e;
+    height: 80px;
+    display: flex;
+}
+
+.div-frase{
+    margin: 30px 100px;
+    
+}
+
+.div-frase h3{
+    font-family: Montserrat;
+    font-size: 100%;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    /* text-align: left; */
+    color: #ffffff;
+}
+
+/* ----------------------------------------- */
+/* SECTION FRASE DE IMPACTO */
+/* ----------------------------------------- */
+
+.quem-somos{
+    background-color: #ffffff;
+    height: 100vh;
+    float: left;
+    width: 100%;
+    padding-right: 10%;
+}
+
+.img-quem-somos{
+    padding-right: 130px;
+    margin: 10% 0;
+}
+
+.time-quem-somos{
+    width: 130%;
+    
+}
+
+.txt-quem-somos{
+    padding: 16% 0;
+
+}
+
+.txt-quem-somos h1{
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #806924;
+
+}
+
+.txt-quem-somos p{
+    font-family: Montserrat;
+    font-size: 70%;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #757575;
+}
+
+/* ----------------------------------------- */
+/* SECTION METODOLOGIA */
+/* ----------------------------------------- */
+
+.section-triangulo{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.section-triangulo .row{
+    margin: 0 0;
+}
+#triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 173px solid #526ff9;
+    border-bottom: 38px solid transparent;
+}
