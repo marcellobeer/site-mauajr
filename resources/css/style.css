@@ -284,7 +284,7 @@ nav {
 
 .etapas-metodologia {
     height: 400px;
-    width: 900px;
+    width: 878px;
 }
 
 .etapas-metodologia h1 {
@@ -362,6 +362,10 @@ nav {
     margin-right: 100px;
 } */
 
+.cases {
+    width: 700px;
+}
+
 .cases-de-sucesso h1{
     width: 300px;
     height: 29px;
@@ -387,6 +391,17 @@ nav {
     height: 116px; 
 }
 
+#ultimo-case{
+    display: flex;
+    justify-content: center;
+}
+
+#ultimo-case img{ 
+    width: 134px;
+    height: 117px;
+    align-self: center;
+}
+
 .itens-case h2{
     font-size: 70%;
     letter-spacing: 0.3px;
@@ -396,7 +411,7 @@ nav {
 }
 
 .itens-case p{
-    width: 205px;
+    width: 180px;
     font-size: 60%;
     /* font-weight: normal; */
     line-height: 1.5;
@@ -405,3 +420,4 @@ nav {
     color: #757575;
     margin-bottom: 10px;
 }
+
