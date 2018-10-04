@@ -421,3 +421,15 @@ nav {
     margin-bottom: 10px;
 }
 
+.img-bg{
+    width: 767px;
+    opacity: 0.12;
+    margin-top: 49px;
+    margin-left: -237px;
+}
+
+.img-gradient{
+    transform: rotate(180deg);
+    height: 500px;
+    margin-left: -455px;
+}
