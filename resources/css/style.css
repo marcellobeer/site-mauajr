@@ -36,7 +36,8 @@ html {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type= submit] {
     padding: 12px 20px;
     margin-left: 90px;
     font-weight: bold;
@@ -49,7 +50,9 @@ html {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type= submit]:hover,
+input[type= submit]:active   {
     background-color: #2f4da8;
 }
 
@@ -232,6 +235,7 @@ nav {
 .section-triangulo .row{
     margin: 0 0;
 }
+
 #triangle-left {
     width: 0;
     height: 0;
@@ -243,9 +247,6 @@ nav {
 /* ----------------------------------------- */
 /* SECTION BACKGROUND */
 /* ----------------------------------------- */
-
-
-
 
 /* ----------------------------------------- */
 /* SECTION METODOLOGIA */
@@ -382,7 +383,7 @@ nav {
     height: 100px;
     background: #246980;
     border-radius: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding-left: 18px;
 }
 
@@ -412,14 +413,18 @@ nav {
 
 .itens-case p{
     width: 180px;
-    font-size: 60%;
-    /* font-weight: normal; */
+    font-size: 55%;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: 0.2px;
     text-align: left;
     color: #757575;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
+
+ /* ----------------------------------------- */
+/* SECTION BACKGROUND*/
+/* ----------------------------------------- */
 
 .img-bg{
     width: 767px;
@@ -428,8 +433,72 @@ nav {
     margin-left: -237px;
 }
 
-.img-gradient{
+.img-gradient-1{
     transform: rotate(180deg);
     height: 500px;
     margin-left: -455px;
 }
+
+ /* ----------------------------------------- */
+/* SECTION FORMULARIO DE CONTATO*/
+/* ----------------------------------------- */
+
+.contato{
+    font-size: 80%;
+    font-weight: 500;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #003366;
+}
+.contato h1{
+    font-size: 150%;
+    letter-spacing: 0.3px;
+    color: #0e1d5f;
+    margin-bottom: 30px;
+}
+
+input[type= text],
+input[type= email],
+select{
+    width: 70%;
+    height: 40%;
+    /* font-size: 90%; */
+    font-weight: 100;
+    padding-left: 3%;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+textarea{
+    width: 70%;
+    height: 190px; 
+    font-weight: 100;
+    padding-left: 3%;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+input[type=submit]{
+    width: 20%;
+    height: 30px;
+    padding: 0;
+    font-size: 80%;
+}
+
+*:focus{outline: none;}  /*--- takes away blue outline chrome puts in forms ---*/
+
+.img-gradient-2{
+    height: 500px;
+}
+
+ /* ----------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------- */
+
+
+
