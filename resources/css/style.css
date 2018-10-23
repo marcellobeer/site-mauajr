@@ -492,10 +492,12 @@ input[type=submit]{
 
 *:focus{outline: none;}  /*--- takes away blue outline chrome puts in forms ---*/
 
+.background-gradient-2{
+    overflow: hidden;
+}
 .img-gradient-2{
     height: 500px;
 }
-
  /* ----------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------- */
